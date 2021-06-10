@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/refreshbutton"
+                android:layout_width="190sp"
+                android:layout_height="match_parent"
+                android:text="Refresh" />
+
+            <ImageView
+                android:id="@+id/imageViewAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher_foreground" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Prędkość Wiatru:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/windSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100sp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Kierunek Wiatru:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/windDirection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100sp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Wilgotność:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/waterView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100sp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Widoczność:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100sp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Zachmurzenie:"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/cloudView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100sp"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/errorView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

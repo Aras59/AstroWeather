@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: AstroWeather.astrocalculator.astrocalculator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/astrocalculator/astrocalculator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

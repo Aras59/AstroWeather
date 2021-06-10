@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/moonRiseInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Wschód Księżyca:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/moonRiseView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/moonSetInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Zachód Księżyca:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/moonSetView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/newMoonInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Najbliższy Nów:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/newMoonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fullMoonInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Najbliższa Pełnia:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/fullMoonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phaseInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Faza Księżyca:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/phaseView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="8"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="5sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/synDayInfo"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Dzień Synodyczny:"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/synDayView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="8"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
